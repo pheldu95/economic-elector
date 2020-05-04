@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: cursive; */
+    margin: 0px;
+    background-color: #f4f4fc;
+}
+
+.alert {
+    background-color: #ff4545;
+    margin: 50px;
+}
+.left_just{
+    text-align: left;
+    display: block;
+}
+
+.newElection{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+form {
+    width: 30%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.log-in, .log-out, .register {
+  background-color: #2f00b0;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:0;
+  cursor: pointer;
+}
+
+.log-in:hover, .log-out:hover, .register:hover {
+  background-color: #3c3ee2;
+}
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.link-button {
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    font: inherit;
+    outline:0;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
+
+.ElectionHolder{
+    /* border-top: rgb(220,220,220) 1px solid; */
+    border-bottom: rgb(220,220,220) 1px solid;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border 500ms ease-out;
+    width: 23%;
+    margin: auto;
+}
+
+.ElectionHolder:hover{
+    border-bottom : #2f00b0 1px solid;
+}
+
+.Election {
+    cursor: pointer;
+    -webkit-transition : color 500ms ease-out;
+    -moz-transition : color 500ms ease-out;
+    -o-transition : color 500ms ease-out;
+    transition : color 500ms ease-out;
+}
+
+.Election:hover{
+    color: #2f00b0;
+}
+
+
+.ruler {
+    width: 100%;
+}
+
+
+.center_just{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+.left_just{
+    text-align: left;
+    display: block;
+}
+
+.right_just{
+    text-align: right;
+    display: block;
+    margin-right: 20px;
+}
+/* can use on admin home and user home */
+.standard_container{
+    text-align: center;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border: rgb(220,220,220) 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 8px 40px -12px rgba(0,0,0,0.1);
+    
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}

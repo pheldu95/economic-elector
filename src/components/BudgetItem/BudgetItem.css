@@ -1,0 +1,13 @@
+.over{
+    text-align: left;
+    align-items: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.under{
+    text-align: left;
+    display: block;
+}

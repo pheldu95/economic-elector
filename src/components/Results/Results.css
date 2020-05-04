@@ -1,0 +1,26 @@
+.CandidateList{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+.candidates_just{
+    width: 100%;
+    text-align: center;
+    align-items: left;
+    margin: auto;
+}
+
+.graph_just{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    background-color: white;
+    border: rgb(220,220,220) 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 8px 40px -12px rgba(0,0,0,0.2);
+}

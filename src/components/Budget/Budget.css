@@ -1,0 +1,11 @@
+.budgetForm{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 50%;
+}
+
+.budgetInput{
+    display: flex;
+    text-align: center;
+}

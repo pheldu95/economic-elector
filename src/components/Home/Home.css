@@ -1,0 +1,37 @@
+.center_just{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    /* display: block; */
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left_just{
+    text-align: left;
+    display: block;
+}
+
+.right_just{
+    text-align: right;
+    display: block;
+    margin-right: 20px;
+}
+
+.float_right{
+    text-align: right;
+    display: block;
+    margin-right: 20px;
+    float: right;
+}
+
+.ElectionList{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
